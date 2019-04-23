@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:background="@android:color/holo_red_light"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="16dp">
+       <ImageView
+           android:id="@+id/pic"
+           android:layout_width="130dp"
+           android:layout_height="130dp"
+           android:src="@drawable/figure"/>
+       <TextView
+           android:id="@+id/text1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="火影忍者疾風傳"
+           android:layout_toRightOf="@id/pic"
+           android:layout_marginLeft="16dp"
+           android:padding="15dp"
+           android:textSize="25sp"
+           android:textColor="@android:color/white"
+           android:background="#009668"/>
+       <TextView
+           android:id="@+id/text2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="再一次通靈之術"
+           android:layout_toRightOf="@id/pic"
+           android:padding="15dp"
+           android:layout_marginLeft="16dp"
+           android:layout_marginTop="10dp"
+           android:layout_below="@id/text1"
+           android:textSize="25sp"
+           android:textColor="@android:color/white"
+           android:background="#009668"/>
+
+
+   </RelativeLayout>
+</RelativeLayout>
